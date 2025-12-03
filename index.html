@@ -9,13 +9,23 @@
 		<a-scene embedded arjs>
 			<a-marker preset="hiro">
 			<!-- create your AR content here -->
-			<a-cone
-				color="red"
-				top-radius="0"
-				bottom-radius="3"
-				height="4"
-				position="0 0.5 0">
+		        <a-box
+            position="0 1 -5"
+            depth="1"
+            height="1"
+            width="1"
+            rotation="0 45 0"
+            color="tomato">
+        </a-box>
+        
+        
+        <a-cylinder position="0 2 -5" radius="0.25" height="1.5" color="#FFC65D"></a-cylinder>
 
+        
+        <a-cone color="blue" radius-bottom="0.6" radius-top="0.0001" height="1" position="0 3.2 -5"></a-cone>
+
+        
+        
 			</a-cone>	
 			</a-marker>
 
