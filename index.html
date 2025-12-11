@@ -9,25 +9,26 @@
 		<a-scene embedded arjs>
 			<a-marker type="pattern" url="https://raw.githubusercontent.com/29sadlad/9ar/refs/heads/main/pattern-loveland.patt?scrlybrkr=a84f625a">
 			<!-- create your AR content here -->
-   <a-plane position="0 0 -4" rotation="-90 0 0" width="100" height="100" color="black"></a-plane>
+            <a-plane position="0 0 -4" rotation="-90 0 0" width="100" height="100" color="black"></a-plane>
     <a-sky color="black"></a-sky>
             
-<a-entity text="value: Welcome to the Expo;"position="0.3 1.75 -1"></a-entity>
+<a-entity text="value: Welcome to the Expo;"position="0.3 1.75 0" rotation="-90 0 0"></a-entity>
     
     
-    <a-sphere position="0 1 -5" color="white" animation="
+    <a-sphere position="0 1 0" color="white" animation="
     property: position;
-    from: 0 1 -15; to: 15 6 -5; dur: 1600; loop: true; dir: alternate;
+    from: 0 1 0; to: 15 6 -5; dur: 1600; loop: true; dir: alternate;
     " animation__2="property: rotation; from: 0 0 -90; to: 0 0 90;
     dur: 200; loop: true; dir: alternate; easeout:linear; "></a-sphere></a-sphere>
             
             
-              <a-sphere position="0 12 -100" color="white" animation="
+              <a-sphere position="0 12 --" color="white" animation="
     property: position;
-    from: 0 12 -100; to: 0 8 -4; dur: 2100; loop: true; dir: alternate;
+    from: 0 12 0; to: 0 8 -4; dur: 2100; loop: true; dir: alternate;
     " animation__2="property: rotation; from: 0 0 -90; to: 0 0 90;
     dur: 200; loop: true; dir: alternate; easeout:linear; "></a-sphere></a-sphere>
             
+
 
 
         
